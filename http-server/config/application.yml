@@ -1,0 +1,14 @@
+server:
+  address: 0.0.0.0
+  port: 83
+
+spring:
+  application:
+    name: http-server
+  aop:
+    auto: true
+    proxy-target-class: true
+
+
+logging:
+  config: file:config/logback-spring-prod.xml
