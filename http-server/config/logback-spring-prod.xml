@@ -66,9 +66,6 @@
     </appender>
 
 
-    <logger name="com.archly.data.source.endpoint" level="trace"/>
-    <logger name="com.archly.data.source.endpoint.queue" level="info"/>
-    <logger name="com.archly.data.source.endpoint.config" level="trace"/>
 
     <root level="debug">
         <appender-ref ref="DAY_INFO"/>
